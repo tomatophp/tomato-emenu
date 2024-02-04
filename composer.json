@@ -1,0 +1,38 @@
+{
+    "name": "tomatophp/tomato-emenu",
+    "type": "library",
+    "description": "Tomato E-Menu To Manage Menus for Tomato Ecommerce",
+    "keywords": [
+        "php",
+        "laravel",
+        "template"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoEmenu\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoEmenu\\TomatoEmenuServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "tomatophp/console-helpers": "^1.1"
+    }
+}
